@@ -10,7 +10,7 @@ const LoginPage = () => {
               <div className="card bg-gray-600 shadow-lg  w-full h-full rounded-3xl absolute  transform -rotate-6"></div>
               <div className="card bg-yellow-500 shadow-lg  w-full h-full rounded-3xl absolute  transform rotate-6"></div>
               <div className="relative w-full rounded-3xl  px-6 py-4 bg-gray-100 shadow-md">
-                <label className="block mt-3 text-sm text-gray-700 text-center font-semibold">
+                <label className="block mt-3 text-lg text-gray-700 text-center font-semibold">
                   CNC Manager
                 </label>
                 <label className="block mt-10 text-sm text-gray-700 text-center font-semibold">
@@ -21,7 +21,7 @@ const LoginPage = () => {
                     <input
                       type="email"
                       placeholder="Email"
-                      className="mt-1 p-2 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0"
+                      className="mt-1 p-2 block w-full border-none bg-gray-100 h-10 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0 text-xs"
                     />
                   </div>
 
@@ -29,7 +29,7 @@ const LoginPage = () => {
                     <input
                       type="password"
                       placeholder="Password"
-                      className="mt-1 p-2 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0"
+                      className="mt-1 p-2 block w-full border-none bg-gray-100 h-10 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0"
                     />
                   </div>
 
