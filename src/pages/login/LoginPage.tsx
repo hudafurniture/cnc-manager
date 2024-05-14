@@ -27,7 +27,7 @@ const LoginPage = () => {
                   <div>
                     <input
                       type="email"
-                      placeholder="alhuda@alhudafurniture.com"
+                      placeholder="ahmed@alhudafurniture.com"
                       className="mt-1 p-2 block w-full border-none bg-gray-100 h-10 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0 text-xs"
                     />
                   </div>
