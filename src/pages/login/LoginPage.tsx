@@ -1,6 +1,13 @@
 import styles from "./loginStyle.module.scss";
+import { useNavigate } from "react-router-dom";
 
 const LoginPage = () => {
+  const navigate = useNavigate();
+
+  const handleSubmit = () => {
+    navigate("/cnchome");
+  };
+
   return (
     <div className={styles.pageContainer}>
       <div className="font-sans">
@@ -59,7 +66,10 @@ const LoginPage = () => {
                   </div>
 
                   <div className="mt-8 mb-4">
-                    <button className="bg-gray-500 w-full py-1 rounded-xl text-white shadow-xl hover:bg-gray-600 focus:outline-none text-sm">
+                    <button
+                      className="bg-gray-500 w-full py-1 rounded-xl text-white shadow-xl hover:bg-gray-600 focus:outline-none text-sm"
+                      onClick={handleSubmit}
+                    >
                       Login
                     </button>
                   </div>
