@@ -2,3 +2,19 @@
     overflow: hidden;
     position: fixed;
 }
+
+.navLink{
+    font-size: smaller;
+    padding: 3px 8px;
+    border-radius:8px;
+    & a{
+        color: black;
+    }
+}
+
+.clickedItem{
+    background: rgb(117, 68, 68);
+        & a{
+        color: white;
+    }
+}
