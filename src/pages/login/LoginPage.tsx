@@ -20,7 +20,7 @@ const LoginPage = () => {
                   <div>
                     <input
                       type="email"
-                      placeholder="Email"
+                      placeholder="alhuda@alhudafurniture.com"
                       className="mt-1 p-2 block w-full border-none bg-gray-100 h-10 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0 text-xs"
                     />
                   </div>
@@ -28,36 +28,38 @@ const LoginPage = () => {
                   <div className="mt-7">
                     <input
                       type="password"
-                      placeholder="Password"
+                      placeholder="****"
+                      value={"1234"}
                       className="mt-1 p-2 block w-full border-none bg-gray-100 h-10 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0"
                     />
                   </div>
 
-                  <div className="mt-7 flex">
+                  <div className="w-full text-right mt-2 ">
+                    <a
+                      className="  mr-2 underline text-xs text-gray-500 hover:text-gray-900"
+                      href="#"
+                    >
+                      Forgot Password?
+                    </a>
+                  </div>
+
+                  <div className="mt-3 flex">
                     <label className="inline-flex items-center w-full cursor-pointer">
                       <input
                         id="remember_me"
                         type="checkbox"
-                        className="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                        className="rounded border-gray-300 text-indigo-800 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                         name="remember"
+                        checked={true}
                       />
-                      <span className="ml-2 text-sm text-gray-600">
+                      <span className="ml-1 text-sm text-gray-600">
                         Remember me
                       </span>
                     </label>
-
-                    <div className="w-full text-right">
-                      <a
-                        className="underline text-sm text-gray-600 hover:text-gray-900"
-                        href="#"
-                      >
-                        Forgot Password?
-                      </a>
-                    </div>
                   </div>
 
                   <div className="mt-8 mb-4">
-                    <button className="bg-gray-500 w-full py-2 rounded-xl text-white shadow-xl hover:bg-gray-600 focus:outline-none">
+                    <button className="bg-gray-500 w-full py-1 rounded-xl text-white shadow-xl hover:bg-gray-600 focus:outline-none text-sm">
                       Login
                     </button>
                   </div>
